@@ -8,7 +8,7 @@ on:
   delete:
     branches:
       - 'feature**'
-
+working-directory: ./test-app
 env:
   PIPELINE_USER_ACCESS_KEY_ID: ${{ secrets.AKIA5UH5EXXODFEKDJFF }}
   PIPELINE_USER_SECRET_ACCESS_KEY: ${{ secrets.1p4NytOOHjJvAVEOJOgHj9Y/3re7gMymY/3orsuq }}
